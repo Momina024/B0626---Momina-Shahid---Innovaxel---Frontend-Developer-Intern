@@ -5,12 +5,6 @@ This project allows users to add, edit, delete, filter, and visualize their expe
 
 ---
 
-## 🚀 Live Demo
-*(Optional - add later if you deploy on Vercel/Netlify)*  
-https://your-deployment-link.com
-
----
-
 ## 📌 Features
 
 - ➕ Add new expenses (title, amount, category, date, notes)
@@ -38,3 +32,16 @@ https://your-deployment-link.com
 ---
 
 ## 📁 Project Structure
+
+src/
+├── components/
+│ ├── ExpenseForm.js
+│ ├── ExpenseFilter.js
+│ ├── ExpenseItem.js
+│ ├── ExpenseList.js
+│ └── Summary.js
+│
+├── App.js
+├── App.css
+├── index.js
+└── index.css
